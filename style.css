@@ -1,0 +1,22 @@
+body {
+ background-image: url("https://tsc-website-production.s3.amazonaws.com/uploads/2018/07/Connected-City-of-the-Future.jpg");
+ background-color: #cccccc;
+
+}
+
+.navbar { 
+    position: fixed; 
+    top: 0;
+}
+
+
+.fab {
+	font-size: 5rem;
+}
+
+
+#footer {
+  position: absolute;
+  width: 100%;
+  
+  
