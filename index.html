@@ -20,7 +20,7 @@
  <body>
 
     <!-- Navbar -->
-<nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-info sticky-top">
+<nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-info sticky-top" id="">
   <a class="navbar-brand d-lg-none" href="#landing">About Us</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainpage">
     <span class="navbar-toggler-icon"></span>
@@ -239,6 +239,14 @@
                   <button class="btm btm-outline-dark btn-block" id="form-submit">Send</button>                
        </div>       
      </div>
+     <script>
+       const email = document.querySelector("#email");
+const formSubmit = document.querySelector("#form-submit");
+
+formSubmit.addEventListener("click", function() {
+  alert("I appreciate the email you sent " + email.value + " regarding to your question. Have a wonderful day!")
+})
+     </script>
      <!-- End of Contact -->
     </div>
     <!-- End of Landing Page -->
